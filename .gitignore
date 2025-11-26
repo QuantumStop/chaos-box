@@ -2,6 +2,9 @@
 *
 !*/
 
+# Don't ignore our new assets
+!game/core/tools/images/new_splash.png
+
 # Git
 !.gitignore
 !.gitattributes

@@ -14,7 +14,7 @@
 
 			SetWindowIcon( Pixmap.FromFile( "window_icon.png" ) );
 			WindowTitle = "Opening s&box Editor";
-			BackgroundImage = Pixmap.FromFile( "splash_screen.png" );
+			BackgroundImage = Pixmap.FromFile( "new_splash.png" );
 
 			// load any saved geometry
 			string geometryCookie = EditorCookie.GetString( "splash.geometry", null );
@@ -96,9 +96,10 @@
 		{
 			Paint.Draw( LocalRect, BackgroundImage );
 
-			Paint.SetPen( Color.White.WithAlpha( 0.4f ) );
+			Paint.SetPen( Color.Magenta );
 
 			string visibleMessages = string.Join( "\n", MessageList );
+			Paint.SetFont( "Century Gothic", 16 );
 			Paint.DrawText( LocalRect.Shrink( 32 ), visibleMessages, TextFlag.LeftBottom );
 		}
 
