@@ -66,6 +66,21 @@ public class Tonemapping : BasePostProcess<Tonemapping>
 	}
 
 	public override int ComponentVersion => 3;
+	// if there were components that set these, we have to keep these
+	[Obsolete( "Use the separate Auto Exposure component" )]
+	public bool AutoExposureEnabled { get; set; }
+
+	[Obsolete( "Use the separate Auto Exposure component" )]
+	public float MinimumExposure { get; set; }
+
+	[Obsolete( "Use the separate Auto Exposure component" )]
+	public float MaximumExposure { get; set; }
+
+	[Obsolete( "Use the separate Auto Exposure component" )]
+	public float ExposureCompensation { get; set; }
+
+	[Obsolete( "Use the separate Auto Exposure component" )]
+	public float Rate { get; set; }
 
 	/// <summary>
 	/// Remove Exposure Bias
