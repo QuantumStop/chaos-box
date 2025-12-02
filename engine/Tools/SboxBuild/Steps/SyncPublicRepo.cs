@@ -486,32 +486,19 @@ internal class SyncPublicRepo( string name, bool dryRun = false ) : Step( name )
 
 	private static HashSet<string> GetAllPublicLfsFiles( string relativeRepoPath )
 	{
-		// Get base set
 		var trackedFiles = GetCurrentLfsFiles( relativeRepoPath );
 
-		// Extend with all lfs files from first commit to HEAD
-		var firstCommitHash = string.Empty;
-		if ( !Utility.RunProcess( "git", "rev-list --max-parents=0 HEAD", relativeRepoPath, onDataReceived: ( _, e ) =>
+		if ( !Utility.RunProcess( "git", "lfs ls-files --all --deleted --name-only", relativeRepoPath, onDataReceived: ( _, e ) =>
 		{
-			if ( !string.IsNullOrWhiteSpace( e.Data ) )
+			if ( string.IsNullOrWhiteSpace( e.Data ) )
 			{
-				firstCommitHash = e.Data.Trim();
+				return;
 			}
-		} ) )
-		{
-			Log.Error( "Failed find first commit" );
-			return null;
-		}
 
-		if ( !Utility.RunProcess( "git", $"lfs ls-files --name-only {firstCommitHash} HEAD", relativeRepoPath, onDataReceived: ( _, e ) =>
-		{
-			if ( !string.IsNullOrWhiteSpace( e.Data ) )
-			{
-				trackedFiles.Add( ToForwardSlash( e.Data.Trim() ) );
-			}
+			trackedFiles.Add( ToForwardSlash( e.Data.Trim() ) );
 		} ) )
 		{
-			Log.Error( "Failed to list LFS tracked files" );
+			Log.Error( "Failed to list historical LFS tracked files" );
 			return null;
 		}
 
