@@ -7,6 +7,12 @@ internal class LauncherPreferences
 	private static CookieContainer _cookie;
 	public static CookieContainer Cookie => _cookie;
 
+	public static string DefaultProjectIdent
+	{
+		get => _cookie.Get<string>( "DefaultProjectIdent", null );
+		set => _cookie.Set( "DefaultProjectIdent", value );
+	}
+
 	public static bool CloseOnLaunch
 	{
 		get => _cookie.Get( "CloseOnLaunch", false );

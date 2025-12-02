@@ -1,6 +1,9 @@
 ﻿using Sandbox;
+using Sandbox.DataModel;
 using Sandbox.Utility;
 using System;
+using System.IO;
+using System.Text.Json;
 
 namespace Editor
 {
@@ -127,7 +130,24 @@ namespace Editor
 			DeleteOnClose = true;
 			_mainWindow.setAnimated( false );
 
-			SetWindowIcon( "logo_rounded.png" );
+			string projectFile = Sandbox.Utility.CommandLine.GetSwitch( "project", null );
+
+			JsonElement root = default;
+			if ( !string.IsNullOrEmpty( projectFile ) && File.Exists( projectFile ) )
+			{
+				using var doc = JsonDocument.Parse( File.ReadAllText( projectFile ) );
+				root = doc.RootElement.Clone();
+			}
+
+			Pixmap icon = EditorUtility.Projects.ResolveProjectAsset(
+				root,
+				projectFile,
+				ProjectConfig.MetaIconKey,
+				"common/logo.png",
+				Pixmap.FromFile
+			);
+
+			SetWindowIcon( icon );
 		}
 
 		protected override void OnResize()
