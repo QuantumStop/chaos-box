@@ -1,0 +1,21 @@
+{
+  "Title": "Base Editor Library",
+  "Type": "tool",
+  "Org": "local",
+  "Ident": "toolbase",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Mounts": null,
+  "IsStandaloneOnly": false,
+  "Metadata": {
+    "Compiler": {
+      "AssemblyReferences": [
+        "Sandbox.Tools"
+      ]
+    },
+    "CsProjName": "Base Editor Library"
+  }
+}
