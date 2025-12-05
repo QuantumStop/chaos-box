@@ -1,4 +1,5 @@
-﻿using NativeEngine;
+﻿using Native;
+using NativeEngine;
 using System.Diagnostics;
 
 namespace Editor;
@@ -235,7 +236,7 @@ public class EditorMainWindow : DockWindow
 				};
 			}
 		}
-
+		EditorToolBars.BuildNative( this );
 		EditorWindow = this;
 	}
 
