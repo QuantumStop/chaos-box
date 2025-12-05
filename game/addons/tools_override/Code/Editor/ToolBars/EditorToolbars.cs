@@ -31,7 +31,8 @@ public static partial class EditorToolBars
 	static void ForceRebuildToolbars()
     {
        	TryClearToolbars();
- 		BuildAllToolbars();
+		BuildShortcutCache();
+		BuildAllToolbars();
     }
 
 	/// <summary>
@@ -94,7 +95,7 @@ public static partial class EditorToolBars
 		MainTools = new ToolBar( window, "Main Tools" );
 		MainTools.SetIconSize( new Vector2( 32, 32 ) );
 
-		AddDefs( MainTools, MainToolDefs, singleSelect: true );
+		AddDefs( MainTools, CreateMainToolDefs(), singleSelect: true );
 
 		dock.RegisterDockType( "Editor - Main Tools", "hammer/appicon.ico", () => MainTools );
 		window.AddToolBar( MainTools, ToolbarPosition.Left );
@@ -116,7 +117,7 @@ public static partial class EditorToolBars
 		};
 		SelectionModes.AddWidget( label );
 
-		AddDefs( SelectionModes, SelectionModeDefs, singleSelect: true );
+		AddDefs( SelectionModes, CreateSelectionModeDefs(), singleSelect: true );
 
 		dock.RegisterDockType( "Editor - Selection Modes", "hammer/appicon.ico", () => SelectionModes );
 		window.AddToolBar( SelectionModes, ToolbarPosition.Top );
@@ -137,7 +138,7 @@ public static partial class EditorToolBars
 		};
 		EditingSettings.AddWidget( label );
 
-		AddDefs( EditingSettings, EditingSettingDefs );
+		AddDefs( EditingSettings, CreateEditingSettingDefs() );
 
 		dock.RegisterDockType( "Editor - Editing Settings", "hammer/appicon.ico", () => EditingSettings );
 		window.AddToolBar( EditingSettings, ToolbarPosition.Top );
@@ -158,7 +159,7 @@ public static partial class EditorToolBars
 		};
 		ViewSettings.AddWidget( label );
 
-		AddDefs( ViewSettings, ViewSettingDefs );
+		AddDefs( ViewSettings, CreateViewSettingDefs() );
 
 		dock.RegisterDockType( "Editor - View Settings", "hammer/appicon.ico", () => ViewSettings );
 		window.AddToolBar( ViewSettings, ToolbarPosition.Top );

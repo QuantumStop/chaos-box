@@ -39,6 +39,7 @@ public partial class SceneViewWidget
 		OnViewModeChanged();
 	}
 
+	[Event( "scene.eject" )]
 	public void ToggleEject()
 	{
 		if ( !Session.IsPlaying ) return;
