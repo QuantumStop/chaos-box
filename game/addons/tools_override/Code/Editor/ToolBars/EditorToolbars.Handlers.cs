@@ -44,7 +44,7 @@ public static partial class EditorToolBars
 
 		public bool ExternalEnabled = false;
 
-		public string ShortcutAction; // e.g. "mesh.vertex"
+		public string ShortcutAction;			// e.g. "mesh.vertex"
 
 		public ToolBarOptionGroupType GroupType = ToolBarOptionGroupType.None;
 	}
@@ -294,8 +294,6 @@ public static partial class EditorToolBars
 		//{
 		//	Log.Info( $"[Toolbar] - {key}" );
 		//}
-
-
 	}
 
 	private static void ExecuteShortcutAction( ToolOptionDef def )
@@ -317,6 +315,6 @@ public static partial class EditorToolBars
 		{
 			Log.Warning( $"[Toolbar] ShortcutAction error '{def.ShortcutAction}': {e}" );
 		}
-	}
+	} 
 
 }

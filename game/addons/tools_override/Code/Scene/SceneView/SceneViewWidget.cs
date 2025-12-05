@@ -1,17 +1,6 @@
 
 namespace Editor;
 
-public static class DisableNewToolbars
-{
-    public static bool CanShow { get; set; }
-
-	[Menu( "Editor", "HL2K/Un-Unity my Hammer." ), Order( 100 )]
-    static void ToggleToolbars()
-    {
-        CanShow ^= true;
-    }
-}
-
 public partial class SceneViewWidget : Widget
 {
 	public enum ViewportLayoutMode
@@ -140,7 +129,7 @@ public partial class SceneViewWidget : Widget
 		if ( _sidePanel is null || !_sidePanel.IsValid() )
 			return;
 
-		bool shouldShow = DisableNewToolbars.CanShow;
+		bool shouldShow = EditorToolBars.ShowLegacyToolbar;
 		
 		if ( _sidePanel.Visible != shouldShow )
 
@@ -308,7 +297,7 @@ public partial class SceneViewWidget : Widget
 		}
 
 		// Set visibility AFTER creation
-    	_sidePanel.Visible = DisableNewToolbars.CanShow;
+    	_sidePanel.Visible = EditorToolBars.ShowLegacyToolbar;
 	}
 }
 

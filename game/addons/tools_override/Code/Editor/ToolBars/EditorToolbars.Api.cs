@@ -6,6 +6,8 @@ using System.Collections.Generic;
 
 public static partial class EditorToolBars
 {
+	public static bool ShowLegacyToolbar { get; set; }
+
 	/// <summary>
 	/// Stores all registered toolbars for easy access by name.
 	/// </summary>
@@ -105,5 +107,12 @@ public static partial class EditorToolBars
 		RegisteredToolbars[name] = bar;
 
 		var dock = window.DockManager;
+	}
+
+
+	[Menu( "Editor", "HL2K/Editor/Debug/Toggle Legacy Viewport Toolbar", "" ), Order( 100 )]
+	static void ToggleToolbars()
+	{
+		ShowLegacyToolbar ^= true;
 	}
 }

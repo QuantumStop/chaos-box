@@ -27,7 +27,7 @@ public static partial class EditorToolBars
 		BuildAllToolbars();
 	}
 
-	[Menu( "Editor", "HL2K/Force Rebuild Toolbars", "hammer/appicon.ico" ), Order( 100 )]
+	[Menu( "Editor", "HL2K/Editor/Debug/Force Rebuild Toolbars", "hammer/appicon.ico" ), Order( 100 )]
 	static void ForceRebuildToolbars()
     {
        	TryClearToolbars();

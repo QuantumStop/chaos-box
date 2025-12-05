@@ -624,7 +624,7 @@ public partial class AssetBrowser : Widget, IBrowser, AssetSystem.IEventListener
 		var menu = new ContextMenu( this );
 
 		{
-			var o = menu.AddOption( new Option( this, "Show Garry Files" ) );
+			var o = menu.AddOption( new Option( this, "Show Garbage Files" ) );
 			o.StatusTip = "Show All Files, even those that are useless for us to see and will make a big mess of the UI.";
 			o.Checkable = true;
 			o.Checked = ShowJunkFiles;
