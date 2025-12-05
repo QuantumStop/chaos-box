@@ -1,0 +1,69 @@
+QTabBar {
+	border-top: 1px solid #505050;
+	font-family: $DefaultFont;
+	margin: 0px;
+	padding: 0px;
+	qproperty-drawBase: 0;
+	qproperty-iconSize: 15px;
+	font-weight: 500;
+	background-color: $TabBarBackground;
+	/* border-top-left-radius: $ControlRadius;
+	border-top-right-radius: $ControlRadius; */
+}
+
+QTabBar::tab {
+	background-color: $TabInactiveBackground;
+	color: $TextLight;
+	padding: 0px 5px;
+	padding-left: 8px;
+	padding-bottom: 2px;
+	background-color: transparent;
+	min-height: 22px;
+	max-height: 22px;
+	/* border-top-left-radius: $ControlRadius;
+	border-top-right-radius: $ControlRadius; */
+	border-top: 1px solid transparent;
+}
+
+QTabBar::tab:hover {
+	color: $Text;
+}
+
+QTabBar::tab:selected {
+	color: $Text;
+	background-color: $TabBackground;
+	border-top: 1px solid #505050;
+	border-right: 1px solid #505050;
+}
+
+QTabBar::tab:bottom {
+	/* border-bottom-left-radius: $ControlRadius;
+	border-bottom-right-radius: $ControlRadius; */
+}
+
+QTabBar::close-button {
+	subcontrol-position: right;
+	image: url("toolimages://image/close_20.png");
+	padding: 4px;
+	margin-top: 1px;
+}
+
+QTabBar::close-button:hover {
+	subcontrol-position: right;
+	image: url("toolimages://image/close_100.png");
+}
+
+QTabBar::tab:top {
+	padding-top: 0px;
+}
+
+QTabWidget {
+	margin: -13px -9px -13px -9px;
+}
+
+QTabWidget::pane {
+	border: 0px;
+	background-color: $ControlBackground;
+	margin: 0px;
+	padding: 0px;
+}

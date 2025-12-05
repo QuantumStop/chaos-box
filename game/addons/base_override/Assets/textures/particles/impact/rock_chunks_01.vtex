@@ -1,0 +1,58 @@
+{
+  "Images": null,
+  "Sequences": [
+    {
+      "Source": "textures/particles/impact/rock_chunk_01.png",
+      "IsLooping": false,
+      "FlipBook": false,
+      "Columns": 3,
+      "Rows": 3,
+      "Frames": 9
+    },
+    {
+      "Source": "textures/particles/impact/rock_chunk_02.png",
+      "IsLooping": false,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/impact/rock_chunk_03.png",
+      "IsLooping": false,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/impact/rock_chunk_04.png",
+      "IsLooping": false,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/impact/rock_chunk_05.png",
+      "IsLooping": false,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/impact/rock_chunk_06.png",
+      "IsLooping": false,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    }
+  ],
+  "InputColorSpace": "Linear",
+  "OutputFormat": "DXT5",
+  "OutputColorSpace": "Linear",
+  "OutputMipAlgorithm": "None",
+  "OutputTypeString": "2D"
+}

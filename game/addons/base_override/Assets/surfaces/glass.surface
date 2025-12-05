@@ -1,0 +1,34 @@
+{
+  "BaseSurface": "surfaces/default.surface",
+  "AudioSurface": "Glass",
+  "Description": "",
+  "Friction": 0.8,
+  "Elasticity": 0.05,
+  "Density": 700,
+  "Thickness": -1,
+  "RollingResistance": 0,
+  "BounceThreshold": 0,
+  "Dampening": 0,
+  "PrefabCollection": {
+    "BulletImpact": {
+      "_type": "gameobject",
+      "prefab": "prefabs/surface/glass_bullet.prefab"
+    },
+    "BluntImpact": null
+  },
+  "SoundCollection": {
+    "FootLeft": "sounds/impacts/melee/impact-melee-glass.sound",
+    "FootRight": "sounds/impacts/melee/impact-melee-glass.sound",
+    "FootLaunch": null,
+    "FootLand": null,
+    "Bullet": "sounds/impacts/bullets/impact-bullet-glass.sound",
+    "ImpactHard": "sounds/impacts/bullets/impact-bullet-glass.sound",
+    "ImpactSoft": "sounds/impacts/melee/impact-melee-glass.sound",
+    "ScrapeRough": null,
+    "ScrapeSmooth": null,
+    "Break": null
+  },
+  "Tags": null,
+  "__references": [],
+  "__version": 0
+}

@@ -1,0 +1,51 @@
+/* TODO: Undo most of this, need some padding however  */
+
+QScrollBar {
+	background: transparent;
+	margin: 0px 0px 0px 0px;
+	border: 1px solid transparent;
+}
+
+QScrollBar:horizontal {
+	height: 8px;
+}
+
+QScrollBar:vertical {
+	width: 8px;
+}
+
+ToolWindowManagerTabBar {
+	background-color: #262626;
+	max-height: 20px;
+}
+
+QScrollBar::handle {
+	background: $SurfaceLightBackground;
+	margin: 0px;
+	border-radius: 3px;
+}
+
+QScrollBar::handle:horizontal {
+	min-width: 8px;
+}
+
+QScrollBar::handle:vertical {
+	min-height: 8px;
+}
+
+QScrollBar::handle:pressed {
+	background: $Blue;
+}
+
+QScrollBar::add-line {
+	width: 0px;
+}
+
+QScrollBar::sub-line {
+	width: 0px;
+}
+
+QScrollBar::add-page,
+QScrollBar::sub-page {
+	background: none;
+}

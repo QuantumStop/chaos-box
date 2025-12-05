@@ -1,0 +1,58 @@
+QComboBox {
+	font-family: $DefaultFont;
+	font-size: 11px;
+	color: $TextControl;
+	border-radius: 4px;
+	min-height: $RowHeight;
+	background: $ControlBackground;
+	min-width: 2em;
+}
+
+QComboBox::drop-down {
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	width: 22px;
+	/* border-top-right-radius: 3px; */
+	/* same radius as the QComboBox */
+	/* border-bottom-right-radius: 3px; */
+	color: $TextControl;
+}
+
+QComboBox::down-arrow {
+	image: url("toolimages://image/tree-open.png");
+}
+
+QComboBox QAbstractItemView {
+	background-color: $ControlBackground;
+	border: 0px solid $Border;
+	margin: 0px;
+	padding: 0px;
+}
+
+QComboBox QAbstractItemView::item,
+QComboBox,
+QComboBox QAbstractItemView::item:selected {
+	padding: 3px 12px;
+	margin: 0px;
+	image-position: top;
+	color: $TextLight;
+}
+
+QComboBox QAbstractItemView::item:selected {
+	background-color: $SurfaceBackground;
+	color: $Text;
+}
+
+QComboBox QAbstractItemView::icon {
+	padding: 10px;
+	left: -3px;
+}
+
+#ViewportToolbar QComboBox QAbstractItemView::item,
+#ViewportToolbar QComboBox QAbstractItemView::item:selected {
+	padding: 3px 13px 3px 7px;
+}
+
+#ViewportToolbar QComboBox {
+	padding: 0px 13px 0px 7px;
+}

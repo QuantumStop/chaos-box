@@ -1,0 +1,50 @@
+{
+  "RootObject": {
+    "__guid": "dd0bb3e2-da8d-49dd-a618-e597d0b12c48",
+    "Flags": 0,
+    "Name": "audio - soundscape",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.SoundscapeTrigger",
+        "__guid": "42c15a3a-e32f-433e-96eb-b6a1e7eb3438",
+        "BoxSize": "50,50,50",
+        "Radius": 512,
+        "StayActiveOnExit": true,
+        "Type": "Point"
+      }
+    ],
+    "Children": [],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": true,
+  "MenuPath": "Audio/Soundscape",
+  "MenuIcon": "surround_sound",
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

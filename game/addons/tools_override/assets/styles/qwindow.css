@@ -1,0 +1,38 @@
+QMainWindow {
+	background: $WindowBackground;
+}
+
+QMainWindow::separator {
+	width: 4px;
+	background: transparent;
+}
+
+QMainWindow::separator:hover,
+QMainWindow::separator:pressed {
+	background: $Primary;
+}
+
+
+QSplitter {
+	margin: 0px;
+	background: transparent;
+}
+
+QSplitter::handle:horizontal {
+	width: 4px;
+	background-color: transparent;
+}
+
+QSplitter::handle:vertical {
+	height: 4px;
+	background-color: transparent;
+}
+
+QToolTip {
+	max-width: 640px;
+	white-space: wrap;
+	background: $ControlBackground;
+	border: 0px solid $ControlBackground;
+	color: $TextLight;
+	padding: 4px;
+}

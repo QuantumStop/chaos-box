@@ -1,0 +1,58 @@
+{
+  "Images": null,
+  "Sequences": [
+    {
+      "Source": "textures/particles/smoke/smoke_static_a1.tga",
+      "IsLooping": true,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/smoke/smoke_static_a2.tga",
+      "IsLooping": true,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/smoke/smoke_static_a3.tga",
+      "IsLooping": true,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/smoke/smoke_static_a4.tga",
+      "IsLooping": true,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/smoke/smoke_static_a5.tga",
+      "IsLooping": true,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/smoke/smoke_static_a6.tga",
+      "IsLooping": true,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    }
+  ],
+  "InputColorSpace": "Linear",
+  "OutputFormat": "DXT5",
+  "OutputColorSpace": "Linear",
+  "OutputMipAlgorithm": "Box",
+  "OutputTypeString": "2D"
+}

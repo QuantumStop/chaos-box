@@ -1,0 +1,52 @@
+{
+  "RootObject": {
+    "__guid": "9fb88c0e-62fc-4f73-b5ad-b6fdd2ae3470",
+    "Flags": 0,
+    "Name": "misc - volumetric fog",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.VolumetricFogVolume",
+        "__guid": "a86b3ed5-6360-453c-8a93-0f40e1d81ebd",
+        "Bounds": {
+          "Mins": "-1500,-1500,-1500",
+          "Maxs": "1500,1500,1500"
+        },
+        "FalloffExponent": 1,
+        "Strength": 1
+      }
+    ],
+    "Children": [],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": true,
+  "MenuPath": "Misc/Volumetric Fog",
+  "MenuIcon": "visibility",
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

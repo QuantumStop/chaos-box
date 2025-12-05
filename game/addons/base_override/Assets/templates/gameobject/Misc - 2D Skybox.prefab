@@ -1,0 +1,50 @@
+{
+  "RootObject": {
+    "__guid": "67ad8e7e-bb8e-40e0-b814-350fddb5d6af",
+    "Flags": 0,
+    "Name": "SkyBox",
+    "Tags": "skybox",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.SkyBox2D",
+        "__guid": "8d11a4cf-0217-455d-94a7-7a8898206df7",
+        "SkyIndirectLighting": true,
+        "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
+        "Tint": "1,1,1,1"
+      }
+    ],
+    "Children": [],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": true,
+  "MenuPath": "Misc/2D Skybox",
+  "MenuIcon": "nights_stay",
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

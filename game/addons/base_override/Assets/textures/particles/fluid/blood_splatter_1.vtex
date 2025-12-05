@@ -1,0 +1,18 @@
+{
+  "Images": null,
+  "Sequences": [
+    {
+      "Source": "textures/particles/fluid/blood_splatter_1.tga",
+      "IsLooping": true,
+      "FlipBook": true,
+      "Columns": 7,
+      "Rows": 7,
+      "Frames": 24
+    }
+  ],
+  "InputColorSpace": "Linear",
+  "OutputFormat": "DXT5",
+  "OutputColorSpace": "Linear",
+  "OutputMipAlgorithm": "None",
+  "OutputTypeString": "2D"
+}

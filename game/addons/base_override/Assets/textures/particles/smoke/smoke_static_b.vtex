@@ -1,0 +1,50 @@
+{
+  "Images": null,
+  "Sequences": [
+    {
+      "Source": "textures/particles/smoke/smoke_static_b1.tga",
+      "IsLooping": false,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/smoke/smoke_static_b2.tga",
+      "IsLooping": false,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/smoke/smoke_static_b3.tga",
+      "IsLooping": false,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/smoke/smoke_static_b4.tga",
+      "IsLooping": false,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    },
+    {
+      "Source": "textures/particles/smoke/smoke_static_b5.tga",
+      "IsLooping": false,
+      "FlipBook": false,
+      "Columns": 0,
+      "Rows": 0,
+      "Frames": 64
+    }
+  ],
+  "InputColorSpace": "Linear",
+  "OutputFormat": "DXT5",
+  "OutputColorSpace": "Linear",
+  "OutputMipAlgorithm": "Box",
+  "OutputTypeString": "2D"
+}

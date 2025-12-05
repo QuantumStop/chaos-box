@@ -1,0 +1,62 @@
+{
+  "RootObject": {
+    "__guid": "089edaea-d396-481d-a82f-f4b4928f0d34",
+    "Flags": 0,
+    "Name": "misc - envmap probe",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.EnvmapProbe",
+        "__guid": "225634f5-6641-405a-97b1-7f2155b5a059",
+        "Texture": "textures/cubemaps/default2.vtex",
+        "Bounds": {
+          "Mins": "-1000,-1000,-1000",
+          "Maxs": "1000,1000,1000"
+        },
+        "DelayBetweenUpdates": 0.1,
+        "Feathering": 0.02,
+        "FrameInterval": 5,
+        "MaxDistance": 512,
+        "MultiBounce": false,
+        "Projection": "Box",
+        "RenderDynamically": false,
+        "TintColor": "1,1,1,1",
+        "UpdateStrategy": "OnEnabled",
+        "ZFar": 4096,
+        "ZNear": 16
+      }
+    ],
+    "Children": [],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": true,
+  "MenuPath": "Misc/Envmap Probe",
+  "MenuIcon": "radio_button_unchecked",
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

@@ -1,0 +1,137 @@
+{
+  "RootObject": {
+    "__guid": "6738d756-16e1-4305-8845-e17fc582f9cc",
+    "Flags": 0,
+    "Name": "3d object - line",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.LineRenderer",
+        "__guid": "526d5057-eb54-4317-817f-54814a0c6e7d",
+        "CastShadows": true,
+        "Color": {
+          "blend": "Linear",
+          "color": [
+            {
+              "t": 0.5,
+              "c": "1,1,1,1"
+            }
+          ],
+          "alpha": []
+        },
+        "EndCap": "Rounded",
+        "Face": "Camera",
+        "Opaque": false,
+        "Points": [
+          {
+            "_type": "gameobject",
+            "go": "198f4f77-49c5-4420-a4b2-fb1f086b5c08"
+          },
+          {
+            "_type": "gameobject",
+            "go": "1ac70194-4d40-4d18-9f2c-2e1f5e2d26b1"
+          },
+          {
+            "_type": "gameobject",
+            "go": "11ae6a71-b001-4cd1-a06d-88a8b65604f9"
+          },
+          {
+            "_type": "gameobject",
+            "go": "d97bd053-44ca-4c88-9918-4ce1a472ebe4"
+          }
+        ],
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "SplineBias": 0,
+        "SplineContinuity": 0,
+        "SplineInterpolation": 8,
+        "SplineTension": 0,
+        "StartCap": "Rounded",
+        "Texturing": {
+          "Texture": null,
+          "WorldSpace": true,
+          "UnitsPerTexture": 10,
+          "Scale": 1,
+          "Offset": 0,
+          "Scroll": 0
+        },
+        "UseVectorPoints": false,
+        "VectorPoints": [],
+        "Width": [
+          {
+            "x": 0,
+            "y": 1,
+            "in": 0,
+            "out": 0,
+            "mode": "Mirrored"
+          }
+        ],
+        "Wireframe": false
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "198f4f77-49c5-4420-a4b2-fb1f086b5c08",
+        "Flags": 0,
+        "Name": "Point 1",
+        "Enabled": true
+      },
+      {
+        "__guid": "1ac70194-4d40-4d18-9f2c-2e1f5e2d26b1",
+        "Flags": 0,
+        "Name": "Point 2",
+        "Position": "-16,56,0",
+        "Enabled": true
+      },
+      {
+        "__guid": "11ae6a71-b001-4cd1-a06d-88a8b65604f9",
+        "Flags": 0,
+        "Name": "Point 3",
+        "Position": "16,56,48",
+        "Enabled": true
+      },
+      {
+        "__guid": "d97bd053-44ca-4c88-9918-4ce1a472ebe4",
+        "Flags": 0,
+        "Name": "Point 4",
+        "Position": "0,0,48",
+        "Enabled": true
+      }
+    ],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": true,
+  "MenuPath": "3D Object/Line",
+  "MenuIcon": "show_chart",
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

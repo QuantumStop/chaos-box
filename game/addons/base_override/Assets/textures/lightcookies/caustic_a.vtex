@@ -1,0 +1,18 @@
+{
+  "Images": null,
+  "Sequences": [
+    {
+      "Source": "textures/lightcookies/caustic_a/caustic_a.tga",
+      "IsLooping": true,
+      "FlipBook": true,
+      "Columns": 4,
+      "Rows": 4,
+      "Frames": 16
+    }
+  ],
+  "InputColorSpace": "Linear",
+  "OutputFormat": "DXT5",
+  "OutputColorSpace": "Linear",
+  "OutputMipAlgorithm": "None",
+  "OutputTypeString": "2D"
+}

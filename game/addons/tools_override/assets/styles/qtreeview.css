@@ -1,0 +1,52 @@
+QTreeView {
+    show-decoration-selected: 1;
+    border: 0px;
+    padding: 0px;
+    color: $TextLight;
+    qproperty-indentation: 20;
+    font-size: 12px;
+}
+
+CQFilteredTreeWidget {
+    font-family: $DefaultFont;
+}
+
+QTreeView::item {
+    padding: 2px 0px;
+    padding-right: 5px;
+}
+
+QTreeView::item:hover {
+    color: $TextLight;
+    background-color: transparent;
+}
+
+QTreeView::branch,
+QTreeView::branch:selected {
+    background: transparent;
+    border: 0px;
+}
+
+QTreeView::branch:closed:has-children {
+    image: url("toolimages://image/tree-closed.png");
+}
+
+QTreeView::branch:open:has-children {
+    image: url("toolimages://image/tree-open.png");
+}
+
+
+QTreeView::item QLineEdit {
+    border: 0px;
+    font-size: 12px;
+}
+
+QTreeView::item QLineEdit:focus {
+    border: 0px solid $Border;
+    color: $Text;
+}
+
+QTreeView::item:selected,
+QTreeView::branch:selected {
+    color: $TextLight;
+}

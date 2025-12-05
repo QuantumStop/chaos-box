@@ -1,0 +1,100 @@
+{
+  "RootObject": {
+    "__guid": "b3628696-4a61-48ad-b90d-d1cb3b33b458",
+    "__version": 1,
+    "Flags": 0,
+    "Name": "3d object - decal",
+    "Position": "0,0,0",
+    "Rotation": "0,0.7071068,0,0.7071068",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkInterpolation": true,
+    "NetworkOrphaned": 0,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "Sandbox.Decal",
+        "__guid": "1de9b47d-b166-4aa2-96c9-9864b6ae82b0",
+        "__enabled": true,
+        "__version": 3,
+        "AttenuationAngle": 1,
+        "ColorMix": 1,
+        "ColorTint": {
+          "Type": "Constant",
+          "Evaluation": "Life",
+          "GradientA": {
+            "blend": "Linear",
+            "color": [
+              {
+                "t": 0.5,
+                "c": "1,1,1,1"
+              }
+            ],
+            "alpha": []
+          },
+          "GradientB": {
+            "blend": "Linear",
+            "color": [
+              {
+                "t": 0.5,
+                "c": "1,1,1,1"
+              }
+            ],
+            "alpha": []
+          },
+          "ConstantA": "1,1,1,1",
+          "ConstantB": "1,1,1,1"
+        },
+        "Decals": [
+          "decals/facepunch-logo.decal"
+        ],
+        "Depth": 8,
+        "LifeTime": 0,
+        "Looped": false,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "Parallax": 1,
+        "Rotation": 0,
+        "Scale": 1,
+        "SequenceId": 0,
+        "SheetSequence": false,
+        "Size": "1,1",
+        "SortLayer": 0,
+        "Transient": false
+      }
+    ],
+    "Children": [],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    },
+    "__variables": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": true,
+  "MenuPath": "3D Object/Decal",
+  "MenuIcon": "approval",
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}

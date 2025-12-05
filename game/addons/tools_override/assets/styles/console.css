@@ -1,0 +1,56 @@
+ConsoleWidget {
+	/* background-color: $ControlBackground; */
+}
+
+ConsoleWidget #Output {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	/* background-color: $WindowBackground; */
+	padding: 0px;
+	margin-bottom: 4px;
+}
+
+ConsoleWidget QPushButton {
+	qproperty-iconSize: 17px;
+}
+
+ConsoleWidget QPushButton:hover,
+ConsoleWidget QLineEdit:hover {
+	/* background-color: $WindowBackground; */
+}
+
+ConsoleWidget StackTraceProperty QPushButton {
+	border-radius: 1px;
+	padding: 8px;
+	qproperty-iconSize: 14px;
+}
+
+ConsoleWidget StackTraceProperty #Message {
+	/* background-color: $WidgetBackground; */
+	color: $TextLight;
+	padding: 8px 0px;
+}
+
+ConsoleWidget StackTraceProperty #Message:hover {
+	/* background-color: $WidgetBackground; */
+	color: $Text;
+}
+
+ConsoleWidget QLineEdit {
+	padding: 4px 6px;
+	/* background-color: $ControlBackground; */
+	color: $Text;
+}
+
+ConsoleWidget QLineEdit:focus {
+	/* background-color: $WidgetBackground; */
+	color: $Text;
+}
+
+ConsoleWidget #Output,
+ConsoleWidget QLineEdit {
+	font-size: 10px;
+	/* font-family: "Roboto Mono"; */
+	/* font-weight: 450; */
+}

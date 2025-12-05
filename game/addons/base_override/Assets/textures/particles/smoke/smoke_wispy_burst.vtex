@@ -1,0 +1,18 @@
+{
+  "Images": null,
+  "Sequences": [
+    {
+      "Source": "textures/particles/smoke/smoke_wispy_burst.tga",
+      "IsLooping": true,
+      "FlipBook": true,
+      "Columns": 5,
+      "Rows": 5,
+      "Frames": 25
+    }
+  ],
+  "InputColorSpace": "Linear",
+  "OutputFormat": "DXT5",
+  "OutputColorSpace": "Linear",
+  "OutputMipAlgorithm": "Box",
+  "OutputTypeString": "2D"
+}

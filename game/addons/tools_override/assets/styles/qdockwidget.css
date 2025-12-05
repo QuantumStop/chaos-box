@@ -1,0 +1,13 @@
+QDockWidget {
+    /* background-color: $SurfaceBackground;
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px; */
+}
+
+#qt_tabwidget_stackedwidget {
+    /* background-color: $SurfaceBackground;
+    padding: 2px;
+    border-bottom-left-radius: $ControlRadius;
+    border-bottom-right-radius: $ControlRadius; */
+}

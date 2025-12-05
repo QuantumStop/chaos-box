@@ -1,0 +1,200 @@
+FieldTitle {
+	font-weight: 450;
+	font-size: 9pt;
+	color: $Text;
+}
+
+FieldSubtitle {
+	font-size: 8pt;
+	color: $TextLight;
+}
+
+ListView {
+	border: 0px;
+	background-color: transparent;
+}
+
+Label[type="body"] {
+	color: $TextLight;
+	font-size: 12px;
+	margin-bottom: 16px;
+}
+
+Label[type="small"] {
+	color: $TextLight;
+	font-size: 10px;
+}
+
+Label[type="warning"] {
+	font-size: 12px;
+	padding: 8px;
+	min-height: 52px;
+}
+
+Label[type="title"] {
+	font-family: $DefaultFont;
+	font-size: 26px;
+	font-weight: 600;
+	color: $Text;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+Label[type="subtitle"] {
+	font-family: $DefaultFont;
+	font-size: 16px;
+	font-weight: 600;
+	color: $TextLight;
+	margin-left: 0px;
+}
+
+TextEdit,
+QLineEdit {
+	padding: 0 5px;
+	/* border-radius: $ControlRadius; */
+	/* background-color: $ControlBackground; */
+	/* color: $Text; */
+}
+
+TextEdit:disabled,
+QLineEdit:disabled {
+	background-color: $ControlBackground;
+}
+
+QLineEdit {
+	/* min-height: $ControlHeight; */
+}
+
+TextEdit::placeholder,
+QLineEdit::placeholder {
+	color: $TextLight;
+}
+
+TextEdit:hover,
+QLineEdit:hover {
+	color: $TextLight;
+}
+
+TextEdit:disabled:hover,
+QLineEdit:disabled:hover {
+	color: $Text;
+}
+
+TextEdit:focus,
+QLineEdit:focus {
+	background-color: $ControlBackground;
+}
+
+QHBoxLayout {
+	background-color: $ControlBackground;
+}
+
+QToolButton {
+	color: $Text;
+}
+
+QSlider {
+	background-color: transparent;
+	color: $TextLight;
+}
+
+QSlider::groove:horizontal {
+	border: 1px solid $Border;
+	height: 4px;
+	background: $ControlBackground;
+	margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+	background: $SurfaceBackground;
+	border: 1px solid $Border;
+	width: 8px;
+	margin: -4px 0;
+	/* border-radius: $ControlRadius; */
+}
+
+/*
+ * ModelDoc
+ */
+CQOutlinerTreeWidget,
+CQPreviewOutlinerTreeWidget {
+	background-color: $ControlBackground;
+}
+
+QLineEdit {
+	/* background-color: $ControlBackground; */
+}
+
+CQModelDocEditorViewControls {
+	background-color: $WidgetBackground;
+}
+
+/*
+ * Material Editor
+ */
+
+CQMaterialEditor #group_label {
+	background-color: #515151;
+}
+
+CQMaterialEditor #group_options_button {
+	background-color: $ButtonBackground;
+}
+
+CQMaterialEditor QToolBar {
+	background-color: #262626;
+	border-top: 2px solid #363636;
+}
+
+CQMaterialEditor QFrame {
+	background-color: #363636;
+}
+
+CQMaterialEditor CQFeaturesList CQTitledGroupBox QFrame {
+	background-color: #313131;
+}
+
+CQMaterialEditor CQFeaturesWindow CQFeaturesList {
+	border: 1px solid #6e6e6e;
+}
+
+CQMaterialEditor QStackedWidget {
+	border: 1px solid #6e6e6e;
+}
+
+CQMaterialEditor QStackedWidget CQTitledGroupBox QFrame {
+	background-color: #323232;
+}
+
+CQStylizedGroupBoxControllable {
+	background-color: $SurfaceBackground;
+}
+
+CQMaterialEditor CQAssetsWindow QHeaderView QWidget {
+	background-color: $TabBarBackground;
+}
+
+CQMaterialEditor CQAssetsWindow QTableWidget  {
+	background-color:#262627;
+}
+
+CQMaterialEditor CQAssetsWindow QTableWidget::item {
+	color: $Text;
+}
+
+CQStylizedGroupBoxControllableCQStylizedGroupBoxControllable {
+	background-color: rgb(208, 255, 0);
+}
+
+CQMaterialEditor QWidget QFrame CQTextureControl QLabel {
+	background-color: #2a2a2a;
+}
+
+/*
+ * Scene view
+ */
+
+#ViewportSidebar {
+	background-color: $SidebarBackground;
+	border-radius: $ControlRadius;
+}

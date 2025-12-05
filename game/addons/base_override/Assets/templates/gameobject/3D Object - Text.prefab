@@ -1,0 +1,89 @@
+{
+  "RootObject": {
+    "__guid": "243a07d0-704d-40ae-84cb-53843d2dcf6d",
+    "Flags": 0,
+    "Name": "3d object - text",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.TextRenderer",
+        "__guid": "897319ed-ddb0-4a84-bd9e-19ea7a5acb1e",
+        "__version": 1,
+        "BlendMode": "Normal",
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "Scale": 0.3,
+        "TextAlignment": "Center",
+        "TextScope": {
+          "Text": "Hello! \u2764",
+          "TextColor": "0.45103,0.47149,0.5297,1",
+          "FontName": "Poppins",
+          "FontSize": 64,
+          "FontWeight": 800,
+          "FontItalic": false,
+          "LineHeight": 1,
+          "LetterSpacing": 0,
+          "WordSpacing": 0,
+          "Outline": {
+            "Enabled": false,
+            "Size": 4,
+            "Color": "0,0,1,1"
+          },
+          "Shadow": {
+            "Enabled": false,
+            "Size": 4,
+            "Color": "0,0,0,1",
+            "Offset": "4,4"
+          },
+          "OutlineUnder": {
+            "Enabled": false,
+            "Size": 4,
+            "Color": "0,1,0,1"
+          },
+          "ShadowUnder": {
+            "Enabled": false,
+            "Size": 4,
+            "Color": "0,0,0,1",
+            "Offset": "4,4"
+          }
+        }
+      }
+    ],
+    "Children": [],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": true,
+  "MenuPath": "3D Object/Text",
+  "MenuIcon": "text_fields",
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

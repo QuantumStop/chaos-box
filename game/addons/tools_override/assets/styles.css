@@ -1,0 +1,284 @@
+CQAnimGraphWindow, CQStateMachineEditorDialog { 
+	background: #1E1E1E; 
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+CAnimGraphEditorWidget QFrame {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+QFrame#AnimNodeVisualizer {
+	background-color: #2f2f2f;
+	border-radius: 3px;
+	padding: 0px;
+	margin: 0px;
+}
+
+QFrame#VisualizationContainer {
+	background-color: #272727;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding: 6px;
+	margin: 0px;
+}
+
+CQAnimGraphPropertyEditor {
+	padding: 0px; 
+	margin: 0px; 
+	border: 0px; 
+}
+
+CQAnimGraphPropertyEditor QFrame {
+	border: 0px; 
+}
+
+CQStateMachineEditorView {
+	background: #1E1E1E; 
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+}
+
+
+QMainWindow::separator
+{ 
+	width: 8px; 
+	background-color: #1E1E1E; 
+}
+
+QFrame#PropertyFrame {
+	background-color: #262627;
+	padding-top : 6px;
+}
+
+
+QToolBar#WidgetSubHeaderToolbar { 
+
+}
+
+QToolBar#animgraph_editor_toolbar {
+	background: #1E1E1E;  
+	margin-top : 0px;
+	margin-bottom : 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: none; 
+	min-height: 32px;
+}
+
+QToolBar#animgraph_editor_toolbar QToolButton, QToolBar#animgraph_editor_toolbar QPushButton, QToolBar#animgraph_editor_toolbar QComboBox {
+	height: 14px;
+	padding: 4px;
+}
+
+QScrollBar:horizontal { 
+	background: #484848; 
+	height: 14px; 
+	margin: 0px 0px 0px 0px; 
+	border : 0; 
+}
+
+QScrollBar:vertical { 
+	background: #484848; 
+	width: 14px; 
+	margin: 0px 0px 0px 0px; 
+	border : 0; 
+}
+
+QScrollBar::handle:horizontal { 
+	background: #323232;
+	min-width: 15px; 
+	margin: 3px 3px 3px 3px; 
+}
+
+QScrollBar::handle:vertical { 
+	background: #323232; 
+	min-height: 15px; 
+	margin: 3px 3px 3px 3px; 
+}
+
+QScrollBar::handle:pressed { 
+	background: #5069b0; 
+}
+
+QScrollBar::add-line { 
+	width: 0px; 
+}
+
+QScrollBar::sub-line { 
+	width: 0px; 
+}
+
+QScrollBar::add-page, QScrollBar::sub-page { 
+	background: none; 
+}
+
+QScrollArea {
+	background: transparent; 
+	border: 0px;
+}
+
+QWidget#PanelHolder { 
+	padding: 10px;
+}
+
+QFrame#PropertiesPanel { 
+	background-color: #2f2f2f;
+	border-radius: 6px;
+	padding: 4px;
+	margin: 0px;
+}
+
+QFrame#AnimReplayControlDock {
+	background-color: #2f2f2f;
+	border-radius: 6px;
+	padding: 4px;
+	margin: 0px;
+}
+
+CQMovementControlWidget QScrollArea {
+	background-color: #262627;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+
+CQLabeledWidget QLabel {
+	padding-left: 4px;
+	min-width: 90px;
+	max-width: 140px;
+}
+
+QWidget#GroupFrameWidgetHeader {
+	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 0, y2 : 1, stop : 0 #292929, stop: 1 #19191a );
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+QWidget#GroupFrameWidgetHeader QLabel{
+	font-size: 12px;
+	font-weight: bold;
+	max-width: 100000px;
+	padding: 4px;
+}
+
+QWidget#TransparentContainer { 
+	background: transparent; 
+}
+
+QTableWidget {
+	padding: 0px; 
+	margin: 0px; 
+	border: 0px; 
+}
+
+QTreeWidget {
+	padding: 0px; 
+	margin: 0px; 
+	border: 0px; 
+}
+
+QTableWidget#SettingsTable::item {
+	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 0, y2 : 1, stop : 0 #494949, stop: 1 #333333 );
+}
+
+QTableWidget#SettingsTable::item::selected {
+	background-color: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #495665, stop: 1 #323D4C);
+}
+
+QTableWidget#SettingsTable QComboBox {
+	background-color: transparent;
+	padding : 0px;
+	padding-left: 6px;
+	border: 0px solid transparent;
+	margin-top : 0px;
+	margin-bottom : 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+QTableWidget#SettingsTable QComboBox:pressed {
+	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 0, y2 : 1, stop : 0 #373737, stop: 1 #4C4C4C );
+}
+QTableWidget#SettingsTable QComboBox:on {
+	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 0, y2 : 1, stop : 0 #373737, stop: 1 #4C4C4C );
+}
+QTableWidget#SettingsTable QComboBox::drop-down {
+	border-width: 0px;
+	width: 0px;
+}
+QTableWidget#SettingsTable QComboBox::down-arrow {
+	image: url(noimg); 
+	border-width: 0px; 
+	width: 0px;
+}
+
+CQAnimGraphSearchBox
+{
+    background-color: #111;
+	padding-left: 6px;
+	border: 0px;
+    border-radius: 3px;
+	min-height: 20px;
+	max-height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+QWidget#PreviewModelSettingsContainer {
+	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 0, y2 : 1, stop : 0 #292929, stop: 1 #19191a );
+}
+
+QWidget#PreviewModelSettingsContainer CQModelConfigButtons {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding : 0px;
+}
+
+QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox {
+	background-color: transparent;
+	padding : 0px;
+	padding-left: 6px;
+	border: 0px solid transparent;
+	margin-top : 0px;
+	margin-bottom : 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox:pressed {
+	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 0, y2 : 1, stop : 0 #373737, stop: 1 #4C4C4C );
+}
+QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox:on {
+	background-color: QLinearGradient( x1 : 0, y1 : 0, x2 : 0, y2 : 1, stop : 0 #373737, stop: 1 #4C4C4C );
+}
+QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox::drop-down {
+	border-width: 0px;
+	width: 0px;
+}
+QWidget#PreviewModelSettingsContainer QComboBox#ModelSelectionComboBox::down-arrow {
+	image: url(noimg); 
+	border-width: 0px; 
+	width: 0px;
+}
+
+QTabWidget::pane, CQTabWidget::pane
+{
+	background: red; 
+}
+
+QMainWindow
+{
+	background: #1E1E1E; 
+}
+
+QLineEdit, LineEdit
+{
+	font-family: "Inter";
+}

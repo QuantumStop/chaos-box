@@ -1,0 +1,29 @@
+{
+  "BaseSurface": "surfaces/default.surface",
+  "AudioSurface": "Water",
+  "Description": "",
+  "Friction": 0.7,
+  "Elasticity": 0.25,
+  "Density": 1000,
+  "Thickness": 0,
+  "RollingResistance": 0,
+  "BounceThreshold": 0,
+  "Breakables": {
+    "BreakSound": "",
+    "GenericGibs": []
+  },
+  "SoundCollection": {
+    "FootLeft": null,
+    "FootRight": null,
+    "FootLaunch": null,
+    "FootLand": null,
+    "Bullet": "sounds/water/water_bullet_impact.sound",
+    "ImpactHard": "sounds/water/water_splash_medium.sound",
+    "ImpactSoft": "sounds/water/water_bullet_impact.sound",
+    "ScrapeRough": null,
+    "ScrapeSmooth": null
+  },
+  "Tags": null,
+  "__references": [],
+  "__version": 0
+}

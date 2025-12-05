@@ -1,0 +1,151 @@
+QToolBar {
+	background-color: transparent;
+	color: $TextLight;
+	border: 0px;
+	padding: 3px;
+	spacing: 1px;
+	min-height: 26px;
+	
+}
+
+.CQHammerSelectModeBar, .CQMapSettingsBar, 
+.CQMapSettingsBar, .CQHammerGlobalModeBar, 
+.CQHammerGlobalViewBar
+{
+	border-top: 2px solid #363636;
+	border-left: 1px solid #363636;
+
+}
+
+.CQHammerSelectModeBar, .CQMapSettingsBar, 
+.CQMapSettingsBar, .CQHammerGlobalModeBar 
+{
+	background: #262626 !important;
+} 
+
+.CQHammerGlobalViewBar {
+	background: #262626 !important;
+
+	/* background: #363636 !important; */
+}
+
+QToolBar QLabel {
+	margin: 1px;
+}
+
+QToolBar QPushButton {
+	padding: 0px;
+	margin: 0px;
+}
+
+QToolBar QToolButton,
+QToolBar QPushButton,
+QToolBar QComboBox {
+	background: #323232;
+	margin: 0px;
+	padding: 2px;
+	border-radius: $ControlRadius;	
+	border: 1px solid #606060;
+
+}
+
+QToolBar QToolButton[popupMode="1"] {
+	padding-right: 8px;
+}
+
+QToolBar QComboBox::drop-down {
+	border-width: 0px;
+}
+
+QToolBar QToolButton:checked,
+QToolBar QPushButton:checked,
+QToolBar QComboBox:checked {
+	background: #555555;
+	/* color: $Text; */
+	color: #af7149;
+	border: 1px solid #bf773b;
+}
+
+QToolBar QToolButton:hover,
+QToolBar QPushButton:hover,
+QToolBar QComboBox:hover {
+	background:#555e71;
+	/* background: $WidgetBackground; */
+	border: 1px solid #bf773b;
+	color: $Text;
+}
+
+QToolBar QToolButton:pressed,
+QToolBar QPushButton:pressed,
+QToolBar QComboBox:pressed {
+	background: #485061;
+	color: $Text;
+}
+
+QToolBar#WidgetHeaderToolbar {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+QToolBar::handle:vertical {
+	background: $SurfaceLightBackground;
+	margin: 3px 1px;
+	width: 2px;
+	height: 2px;
+	border-radius: 2px;
+}
+
+QToolBar::handle:horizontal {
+	background: $SurfaceLightBackground;
+	margin: 1px 3px;
+	width: 2px;
+	height: 2px;
+	border-radius: 2px;
+}
+
+QToolBar::separator {
+	background: $SurfaceLightBackground;
+	margin: 2px;
+	width: 1px;
+	height: 1px;
+}
+
+QToolBar LineEdit {
+	padding: 3px 5px;
+	min-height: 18px;
+}
+
+#MDAnimCtrlToolbar QToolButton,
+#MDAnimCtrlToolbar QPushButton,
+#MDAnimCtrlToolbar QComboBox {
+	padding: 0px;
+}
+
+QRadioButton {
+	min-height: 16px;
+}
+
+CQPropertyEditor QToolBar {
+	/*these are not initially applied for some reason...*/
+	padding: 0px;
+	spacing: 5px;
+	margin: 0px;
+	min-height: 10px;
+}
+
+CQPropertyEditorToolbar QLineEdit {
+	border: 0;
+}
+
+/* wank but only way to style the toolbar extension backgrounds so they're not transparent */
+CQCordonEditorDockWidget,
+CQHammerGlobalModeBar,
+CQHammerGlobalViewBar {
+	/* background-color: $WindowBackground; */
+	background-color: #363636 !important;
+
+}
+
+ScrollArea {
+	background-color: $SurfaceBackground;
+}

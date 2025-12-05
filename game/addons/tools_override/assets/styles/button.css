@@ -1,0 +1,10 @@
+QStatusBar>Button {
+  border-radius: 2px;
+  padding: 4px 4px;
+  text-align: left;
+  qproperty-iconSize: 20px 14px;
+}
+
+QLabel[is-icon="true"] {
+  /* font-family: "Material Icons"; */
+}
