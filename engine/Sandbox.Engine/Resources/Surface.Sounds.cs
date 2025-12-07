@@ -8,54 +8,58 @@ public partial class Surface
 	public struct SurfaceSoundCollection
 	{
 		/// <summary>
+		/// The name of the parameter to use for this surface
+		/// </summary>
+		public string SurfaceParameter { get; set; }
+		/// <summary>
 		/// Left footstep sound.
 		/// </summary>
-		public SoundEvent FootLeft { get; set; }
+		[Space] public string FootLeft { get; set; }
 
 		/// <summary>
 		/// Right footstep sound.
 		/// </summary>
-		public SoundEvent FootRight { get; set; }
+		public string FootRight { get; set; }
 
 		/// <summary>
 		/// Jump sound for this surface.
 		/// </summary>
-		public SoundEvent FootLaunch { get; set; }
+		public string FootLaunch { get; set; }
 
 		/// <summary>
 		/// Landing sound for this surface.
 		/// </summary>
-		public SoundEvent FootLand { get; set; }
+		public string FootLand { get; set; }
 
 		/// <summary>
 		/// Bullet impact sound for this surface.
 		/// </summary>
-		public SoundEvent Bullet { get; set; }
+		public string Bullet { get; set; }
 
 		/// <summary>
 		/// Hard, high velocity impact sound.
 		/// </summary>
-		public SoundEvent ImpactHard { get; set; }
+		public string ImpactHard { get; set; }
 
 		/// <summary>
 		/// Soft, low velocity impact sound.
 		/// </summary>
-		public SoundEvent ImpactSoft { get; set; }
+		public string ImpactSoft { get; set; }
 
 		/// <summary>
 		/// Rough scraping sound when scraping against another surface.
 		/// </summary>
-		public SoundEvent ScrapeRough { get; set; }
+		public string ScrapeRough { get; set; }
 
 		/// <summary>
 		/// Smooth scraping sound when scraping against another surface.
 		/// </summary>
-		public SoundEvent ScrapeSmooth { get; set; }
+		public string ScrapeSmooth { get; set; }
 
 		/// <summary>
 		/// Sound to play when an object made of this breaks
 		/// </summary>
-		public SoundEvent Break { get; set; }
+		public string Break { get; set; }
 	}
 
 	/// <summary>

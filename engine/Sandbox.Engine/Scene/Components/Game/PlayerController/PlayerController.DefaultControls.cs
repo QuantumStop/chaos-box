@@ -125,8 +125,8 @@ public sealed partial class PlayerController : Component
 					var volume = Velocity.Length.Remap( 50, 800, 0.5f, 5 );
 					var vel = Velocity.Length;
 
-					PlayFootstepSound( WorldPosition, volume, 0 );
-					PlayFootstepSound( WorldPosition, volume, 1 );
+				//	PlayFootstepSound( WorldPosition, volume, 0 );
+				//	PlayFootstepSound( WorldPosition, volume, 1 );
 				}
 			}
 

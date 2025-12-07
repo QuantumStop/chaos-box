@@ -124,7 +124,7 @@ public partial class Surface : GameResource
 	/// know that this index shouldn't be saved or networked because it could differ between loads or clients.
 	/// Instead send the name hash and look up using that.
 	/// </summary>
-	internal static Surface FindByIndex( int index )
+	public static Surface FindByIndex( int index )
 	{
 		if ( All.TryGetValue( index, out var val ) )
 			return val;

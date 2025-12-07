@@ -421,7 +421,7 @@ public partial class GameObject
 	/// The network root is the first networked GameObject above this.
 	/// This gets set from the parent's NetworkSpawn and invalidated when the parent changes.
 	/// </summary>
-	internal GameObject NetworkRoot { get; private set; }
+	public GameObject NetworkRoot { get; private set; }
 
 	internal void UpdateNetworkRoot()
 	{
